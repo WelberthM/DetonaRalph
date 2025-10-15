@@ -19,11 +19,7 @@ const state = {
 }
 
 function playSound(){
-<<<<<<< HEAD
     let audio = new Audio('./src/sons/hit.m4a');
-=======
-    let audio = new Audio('/src/sons/hit.m4a');
->>>>>>> ee80fb2ef370819246720a887efc0f9cc8fcede6
     audio.volume = 0.2;
     audio.play();
 }
